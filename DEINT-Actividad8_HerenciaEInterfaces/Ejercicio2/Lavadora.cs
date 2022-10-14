@@ -35,6 +35,10 @@ namespace DEINT_Actividad8_HerenciaEInterfaces.Ejercicio2
             }
 
         }
+        public override string ToString()
+        {
+            return $"Lavadora -> {base.ToString()}, Carga: {Carga}Kg";
+        }
 
     }
 }

@@ -118,5 +118,15 @@ namespace DEINT_Actividad8_HerenciaEInterfaces.Ejercicio2
             }
 
         }
+
+        public override string ToString()
+        {
+            return $"Color: {Color.ToString()}, Consumo: {Consumo}, Precio: {Precio_base}E, Peso: {Peso}Kg";
+        }
+        public string ToStringElec()
+        {
+            return $"Electrodomestico -> Color: {Color.ToString()}, Consumo: {Consumo}, Precio: {Precio_base}E, Peso: {Peso}Kg";
+        }
+
     }
 }
