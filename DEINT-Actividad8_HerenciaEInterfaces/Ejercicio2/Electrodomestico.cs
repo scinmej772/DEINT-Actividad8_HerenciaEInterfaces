@@ -17,7 +17,7 @@ namespace DEINT_Actividad8_HerenciaEInterfaces.Ejercicio2
         public Color Color { get; set; }
         public Char Consumo { get; set; }
         public Double Precio_base { get; set; }
-        private Double Peso { get; set; }
+        public Double Peso { get; set; }
 
         public Electrodomestico()
         {
