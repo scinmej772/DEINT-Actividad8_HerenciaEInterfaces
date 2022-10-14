@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using DEINT_Actividad8_HerenciaEInterfaces.Ejercicio1;
+using DEINT_Actividad8_HerenciaEInterfaces.Ejercicio2;
 
 //Ejercicio1
 Console.WriteLine("Ejercicio1");
@@ -22,6 +23,6 @@ Console.WriteLine();
 //Ejercicio2
 Console.WriteLine("Ejercicio2");
 
-
+Electrodomestico[] electrodomesticos = new Electrodomestico[10];
 
 Console.WriteLine();
