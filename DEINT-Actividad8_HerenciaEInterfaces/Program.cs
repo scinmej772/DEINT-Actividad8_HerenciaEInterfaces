@@ -84,15 +84,16 @@ foreach (var s in series) {
     Console.WriteLine(s.ToString());
     if (s.isEntregado()) {
         contSer++;
+        s.devolver();
     }
 }
 
 Int16 contVJ = 0;
 foreach (var vj in videojuegos) {
     Console.WriteLine(vj.ToString());
-    if (vj.isEntregado())
-    {
+    if (vj.isEntregado()) {
         contVJ++;
+        vj.devolver();
     }
 }
 
