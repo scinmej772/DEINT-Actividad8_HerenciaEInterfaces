@@ -53,6 +53,7 @@ namespace DEINT_Actividad8_HerenciaEInterfaces.Ejercicio2
             {
                 return CONSUMO;
             }
+
         }
 
         private Color comprobarColor(string color) {
@@ -71,6 +72,15 @@ namespace DEINT_Actividad8_HerenciaEInterfaces.Ejercicio2
                     return Color.Gris;
                 default:
                     return COLOR;
+            }
+
+            if (Enum.IsDefined(typeof(Color), color))
+            {
+                return Color = Enum.Parse<Color>(color);
+            }
+            else
+            {
+                return COLOR;
             }
 
         }
